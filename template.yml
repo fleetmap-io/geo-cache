@@ -1,0 +1,10 @@
+Transform: AWS::Serverless-2016-10-31
+
+Description:
+  Geocoding service
+
+Resources:
+  Type: AWS::Serverless::Function
+  Properties:
+    Handler: lib/
+    Runtime: python3.6
